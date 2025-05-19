@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background-color: #fafafa;
+}
+
+header, nav, main, footer {
+  margin-bottom: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.highlighted {
+  background-color: #fffbcc;
+  border-left: 4px solid #f0c000;
+  padding-left: 0.5rem;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  border: none;
+  background-color: #007acc;
+  color: white;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005f99;
+}

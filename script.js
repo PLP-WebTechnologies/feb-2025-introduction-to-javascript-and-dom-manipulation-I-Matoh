@@ -24,7 +24,7 @@ addContactBtn.addEventListener('click', () => {
   if (!document.getElementById('contact-info')) {
     const contactInfo = document.createElement('p');
     contactInfo.id = 'contact-info';
-    contactInfo.textContent = 'Email: contact@mycompany.com | Phone: +123 456 7890';
+    contactInfo.textContent = 'Email: info@kiira.com';
     contactContainer.appendChild(contactInfo);
   }
 });
